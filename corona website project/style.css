@@ -1,0 +1,36 @@
+ul{
+    display:flex;
+    justify-content:center;
+    align-content:center;
+}
+ul li{
+    list-style:none;
+}
+ul li a{
+    text-transform:uppercase;
+    font-weight:bold;
+    font-size:0.875em;
+    text-decoration:none;
+    padding:1em;
+    letter-spacing:1px;
+    white-space:nowrap;
+    color:white;    
+}
+ul li a:hover{
+    border-bottom:3px solid white;
+}
+.header{
+    padding:20px;
+    height:100vh;
+    background:url("Coronavirus-1.jpg") no-repeat center;
+    background-size:cover;
+}
+.header h1{
+    margin:0;
+    text-align:center;
+    color:white;
+    font-size:3rem;
+    font-weight:900;
+    font-family:agencyfb;
+    margin-top:300px;
+}
